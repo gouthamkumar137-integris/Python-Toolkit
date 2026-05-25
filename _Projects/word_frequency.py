@@ -13,3 +13,5 @@ sorted_words=sorted(word_freq.items(),key=lambda x:x[1],reverse=True)
 print("\nTop 10 most frequent words:")
 for word,freq in sorted_words[:10]:
     print(f"{word}: {freq}")
+
+# the sample text wrote in sample.txt file u can create your own text file for analyzing.
